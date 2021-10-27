@@ -8,9 +8,7 @@ public class BaiTap4 {
 
 		for (int i = 0; i < arr.length; i++) {
 			if (max < arr[i]) {
-				int tmp = arr[i];
-				arr[i] = max;
-				max = tmp;
+				max = arr[i];
 			}
 		}
 		System.out.print(max);
