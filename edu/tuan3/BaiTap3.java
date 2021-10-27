@@ -9,13 +9,10 @@ public class BaiTap3 {
 
 		for (int i = 0; i < arr.length; i++) {
 			if (min > arr[i]) {
-				int tmp = arr[i];
-				arr[i] = min;
-				min = tmp;
+				min = arr[i];
 			}
 		}
 		System.out.print(min);
 		System.out.println(" Truong Quoc Viet 20198341");
 	}
-
 }
